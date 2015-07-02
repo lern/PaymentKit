@@ -93,7 +93,7 @@ static NSString *const kPTKOldLocalizedStringsTableName = @"STPaymentLocalizable
     [self.innerView addSubview:self.cardNumberField];
 
     self.opaqueOverGradientView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 9, 34)];
-    opaqueOverGradientView.backgroundColor = [UIColor whiteColor];
+    self.opaqueOverGradientView.backgroundColor = [UIColor whiteColor];
     self.opaqueOverGradientView.alpha = 0.0;
     [self.innerView addSubview:self.opaqueOverGradientView];
 
